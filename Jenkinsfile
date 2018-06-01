@@ -5,8 +5,8 @@ pipeline {
       [key: 'ref', value: '$.ref']
      ],
      causeString: 'Triggered on $ref',
-     regexpFilterExpression: '',
-     regexpFilterText: '',
+     regexpFilterExpression: 'Jpetstore',
+     regexpFilterText: 'Jpetstore',
      printContributedVariables: true,
      printPostContent: true
     )
